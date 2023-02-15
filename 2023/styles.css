@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.rating{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    height: fit-content;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    font-family: 'Londrina Solid', cursive;
+
+    text-align: center;
+    font-size: 2.625rem;
+    font-weight: 400;
+    margin: 2.625rem 0 1.5rem 0;
+}
+
+main{
+    text-align: center;
+}
+
+.rating-buttons{
+    margin-top: 10.313rem;
+}
+
+.rating-buttons button{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+
+    padding: 0.5rem 1.5rem;
+    border-radius: 6.25rem;
+}
+
+.rating-buttons button:first-child{
+    color: #2CC6D0;
+    background-color: #F2F2F2;
+}
+
+.rating-buttons button:last-child{
+    color: #F2F2F2;
+    background-color: #2CC6D0;
+    box-shadow: 5px 5px 5px#2EAFB9;
+}
+
+.rating-buttons button:disabled{
+    background-color: #C8C8C8;
+    box-shadow: 5px 5px 5px #00000080;
+    cursor: not-allowed;
+}

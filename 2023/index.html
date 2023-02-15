@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link  rel="stylesheet">
+    <script src="funcao.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Avalie o tutor</title>
+
+</head>
+
+<body>
+
+    <div class="rating">
+        <header>
+            <img src="img/livro.png" alt="livro">
+            <h1>Como foi a ajuda <br> do tutor?</h1>
+        </header>
+
+        <main>
+            <a href="javascript:void(0)" onclick="Avaliar(1)">
+                <img src="img/estrela_vazia.svg" id="s1"></a>
+
+            <a href="javascript:void(0)" onclick="Avaliar(2)">
+                <img src="img/estrela_vazia.svg" id="s2"></a>
+
+            <a href="javascript:void(0)" onclick="Avaliar(3)">
+                <img src="img/estrela_vazia.svg" id="s3"></a>
+
+            <a href="javascript:void(0)" onclick="Avaliar(4)">
+                <img src="img/estrela_vazia.svg" id="s4"></a>
+
+            <a href="javascript:void(0)" onclick="Avaliar(5)">
+                <img src="img/estrela_vazia.svg" id="s5"></a>
+
+            <div class="rating-buttons">
+                <button>
+                    PULAR
+                </button>
+
+                <button class="submit-rating" onclick="viewRating()" disabled>
+                    CONFIRMAR
+                </button>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
